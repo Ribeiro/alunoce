@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.curso.view"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <!-- Permissao para vibrar -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Permissao para fazer chamadas -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- Permissao para escrever no cartao de memoria -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> 
+
+    <!-- Permissoes para enviar SMS -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <!-- Permissoes para acessar a Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.com.curso.view.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.curso.view.FormActivity"
+            android:label="@string/title_activity_form" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.curso.view.BuscarActivity"
+            android:label="@string/title_activity_buscar" >
+        </activity>
+    </application>
+
+</manifest>

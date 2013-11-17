@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_opcoes">
+        <item >Fazer uma Ligação</item>
+        <item >Enviar SMS</item>
+        <item >Buscar no Mapa</item>
+        <item >Editar</item>
+        <item >Remover</item>
+        <item >Falar</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".BuscarActivity" >
+
+    <TextView
+        android:id="@+id/activity_busca_tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_busca_tvInfo" />
+
+    <RadioGroup
+        android:id="@+id/activity_busca_radioGroup"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <RadioButton
+            android:id="@+id/activity_busca_rbId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/activity_busca_rbId" 
+            android:paddingRight="50dip" />
+
+        <RadioButton
+            android:id="@+id/activity_busca_rbNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/activity_busca_rbNome" />
+    </RadioGroup>
+
+     <EditText
+        android:id="@+id/activity_busca_etBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="@string/activity_busca_etBuscarHind" >
+
+        <requestFocus />
+    </EditText>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp" >
+
+        <Spinner
+            android:id="@+id/activity_busca_spIdioma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+	
+	    <ImageButton
+	        android:id="@+id/activity_busca_imgBtVoz"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginLeft="10dp"
+	        android:layout_weight="0"
+	        android:src="@android:drawable/ic_btn_speak_now" />
+
+	</LinearLayout>
+	
+    <Button
+        android:id="@+id/activity_busca_btBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/activity_busca_btBuscar" />
+
+</LinearLayout>

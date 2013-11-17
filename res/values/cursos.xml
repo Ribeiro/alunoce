@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cursos">
+        <item name="computacao">Computação</item>
+        <item name="enfermagem">Enfermagem</item>
+        <item name="direito">Direito</item>
+        <item name="medicina">Medicina</item>
+        <item name="administracao">Administração</item>
+        <item name="contabilidade">Contabilidade</item>
+    </string-array>
+    
+</resources>
