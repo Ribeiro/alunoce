@@ -8,7 +8,7 @@ Esta aplicação foi desenvolvida para o curso **Desenvolvendo aplicações para
 * Instrutor: Gabriel Tavares (gabrieltavaresmelo@gmail.com)
 * Pré-requisito: O participante do curso deverá conhecer a linguagem de programação Java (Java SE) e ter noções de lógica de programação.
 * Público-alvo: Estudantes e profissionais interessados em desenvolver soluções para dispositivos móveis com a plataforma Android.
-
+* Conteúdo Programático: Introdução ao Android, Ferramentas necessárias, Injeção de dependências, Acesso a itens de hardware, Empreendendo com o Google Play
 
 ---
 O aplicativo se encontra disponível no [Google Play: AlunoCe](https://play.google.com/store/apps/details?id=br.com.curso.view).
